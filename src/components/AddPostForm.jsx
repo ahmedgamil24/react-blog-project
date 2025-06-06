@@ -131,7 +131,7 @@ export default function AddPostForm({ onAddPost, onUpdatePost, user, editingPost
 
             <div className="flex justify-end space-x-3 mt-6">
               {editingPost && (
-                <button type="button" onClick={cancelEdit} className="bg-gray-400 text-white px-4 py-2 rounded-md hover:bg-gray-500 transition">
+                <button type="button" onClick={cancelEdit} className="bg-gray-400 cursor-pointer text-white px-4 py-2 rounded-md hover:bg-gray-500 transition">
                   Cancel
                 </button>
               )}
