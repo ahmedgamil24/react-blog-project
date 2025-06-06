@@ -137,7 +137,7 @@ export default function AddPostForm({ onAddPost, onUpdatePost, user, editingPost
               )}
               <button
                 type="submit"
-                className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition"
+                className="bg-green-600 cursor-pointer text-white px-4 py-2 rounded-md hover:bg-green-700 transition"
                 disabled={uploading}
               >
                 {editingPost ? "Update Post" : "Create Post"}
